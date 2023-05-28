@@ -1,0 +1,24 @@
+{
+  "name": "odin-cs-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linked-list.js",
+  "scripts": {
+    "test": "jest",
+    "watch" : "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrunel/odin-cs-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrunel/odin-cs-practice/issues"
+  },
+  "homepage": "https://github.com/sabrunel/odin-cs-practice#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
