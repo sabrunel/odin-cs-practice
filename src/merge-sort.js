@@ -38,5 +38,4 @@ function merge(left, right) {
     return sortedArray;
 }
 
-
-console.log(mergeSort([1,5,3,2,4]));
+module.exports = mergeSort;

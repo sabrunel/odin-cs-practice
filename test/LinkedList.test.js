@@ -1,4 +1,4 @@
-const LinkedList = require("./LinkedList");
+const LinkedList = require("../src/LinkedList");
 
 describe("#append", () => {
     it("Appends a new node to an empty list and sets it as the head", () => {

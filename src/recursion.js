@@ -18,9 +18,6 @@ function fibs(n) {
     return fibsArray;
 }
 
-console.log(fibs(8)); 
-
-
 
 function fibsRec(n) {
     if (n < 0 || n === "") throw new Error("Input number must be an integer >=0");
@@ -30,4 +27,5 @@ function fibsRec(n) {
     return [...fibsRec(n-1), fibsRec(n-1)[n-2] + fibsRec(n-1)[n-3]];
 }
 
-console.log(fibsRec(8));
+
+module.exports = {fibs, fibsRec};
